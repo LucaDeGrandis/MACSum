@@ -1,4 +1,5 @@
 import os
+os.chdir('/content/MACSum/model')
 from metrics.rouge.ThirdParty.ROUGE import pyrouge
 from nltk import sent_tokenize
 from third_party.rouge.rouge import Rouge
